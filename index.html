@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<title>ETF Template</title>
+<meta charset="UTF-8">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="etf_js.js"></script>
+<link rel="stylesheet" href="stylesheet.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<body>
+  <div>
+    <div id="navbar">
+      <nav class="navbar navbar-expand-md"  role="navigation">
+        <a class="navbar-brand" >Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item">
+              <a class="nav-link" href="">Overview</a>
+            </li>
+			 <li class="dropdown">
+				<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">Solutions <b class="caret"></b></a>
+				<ul class="dropdown-menu  btn-navbar">
+					<li><a href="#">Income</a></li>
+					<li><a href="#">Balance</a></li>
+					<li><a href="#">Growth</a></li>
+				</ul>
+			</li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Performance</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn-learnmore-green" href="">Get Started</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!--page bosy start -->
+    <div class="body-container">
+      <!-- Main Banner -->
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/bkg-home.jpg" alt="Los Angeles">
+          </div>
+        </div>
+      </div>
+      <!--Investment container-->
+      <div class="investment-container">
+        <div class="row">
+          <div class="col-md-7 col-sm-7 col-lg-7 offset-md-3 offset-sm-3  offset-lg-3">
+            <h2 style="float:left;">INVESTMENTS FOR THE &nbsp</h2><h2 id="sequence"></h2>
+          </div>
+        </div>
+      </div>
+      <!--No Fuss container-->
+      <div class="no-fuss-container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-lg-6">
+            <h2>No Fuss, No Stress.</h2>
+            <p>Do you wnat an easy, accessible investment portfolio?
+              <b>
+                One that doesn't require minimum balances to even qualify?
+            </p>
+            <p>With an initial investment of as little as $500, you get access to an actively-managed portfolio of investments
+              with the IPC Essential Portfolios.</p>
+            <a class="button" href="">Find An Advisor</a>
+          </div>
+          <div class="col-md-6 col-sm-6 col-lg-6">
+            <img src="" alt="plant-img">
+          </div>
+        </div>
+      </div>
+      <!--IPC Essential container-->
+      <div class="container-fluid ipc-essential-container">
+        <div class="row what-is-ipc-essential">
+          <div class="col-md-8 offset-md-2 col-lg-8 offset-lg-2">
+            <h2>WHAT IS IPC Essential?</h2>
+            <P>With the IPC Essential Portfolios, You'll enjoy a diverse selction of the most cost-effective ETFs, structured
+              and managed with all the protections and portfolio management discipline that we value at IPC.</P>
+			  <a class="btn-learnmore-green icon-play" href=""> WATCH THE VIDEO</a>
+          </div>
+        </div>
+        <div class="row">
+          <div id="demo" class="carousel slide" data-ride="carousel">
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">>
+                  <div class="col-md-3 offset-md-2">
+                    <img src="" alt="">
+                    <h3>GOAL-BASED</h3>
+                    <p>ETF portfolio that are expertly put together to meet your specific goals.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="" alt="">
+                    <h3>GOAL-BASED</h3>
+                    <p>ETF portfolio that are expertly put together to meet your specific goals.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="" alt="">
+                    <h3>GOAL-BASED</h3>
+                    <p>ETF portfolio that are expertly put together to meet your specific goals.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-4">
+                  <img src="" alt="">
+                  <h3>GOAL-BASED</h3>
+                  <p>ETF portfolio that are expertly put together to meet your specific goals.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+	   <!--Income Balanced Growth-->
+      <div class="ibg_container">
+        <div class="row">
+          <div class="col-md-3 col-lg-3 offset-md-2">
+            <h2>INCOME</h2>
+            <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+              <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#f5f5f5"></circle>
+              <!--gray line-->
+              <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+              <!--white line-->
+              <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#f5f5f5" stroke-width="3"
+                stroke-dasharray="2 98" stroke-dashoffset="25"></circle>
+              <!--green line-->
+              <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#046431" stroke-width="3"
+                stroke-dasharray="18 82" stroke-dashoffset="23"></circle>
+              <!--white line-->
+              <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#f5f5f5" stroke-width="3"
+                stroke-dasharray="2 98" stroke-dashoffset="5"></circle>
+              <!--white line-->
+              <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"
+                stroke-dasharray="76 24" stroke-dashoffset="3"></circle>
+            </svg>
+            <p class="green-box">EQUITIES</p>
+            <P class="gray-box">FIXED INCOME</P>
+            <h3>LOW TOLERANCE FOR RISK!</h3>
+            <P>THE IPC Essentials Income ETF Portfolio provides you with a monthly income stream and capital presevation</P>
+            <a class="btn-learnmore-green" href="">LEARN MORE</a>
+
+          </div>
+          <div class="col-md-3 col-lg-3">
+            <h2>BALANCED</h2>
+            <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+              <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#f5f5f5"></circle>
+              <!--gray line-->
+              <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+              <!--white line-->
+              <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#f5f5f5" stroke-width="3"
+                stroke-dasharray="2 98" stroke-dashoffset="25"></circle>
+              <!--green line-->
+              <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#046431" stroke-width="3"
+                stroke-dasharray="55 45" stroke-dashoffset="23"></circle>
+              <!--white line-->
+              <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#f5f5f5" stroke-width="3"
+                stroke-dasharray="2 98" stroke-dashoffset="68"></circle>
+              <!--white line-->
+              <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"
+                stroke-dasharray="41 59" stroke-dashoffset="66"></circle>
+            </svg>
+            <p class="green-box">EQUITIES</p>
+            <P class="gray-box">FIXED INCOME</P>
+            <h3>LOW TOLERANCE FOR RISK!</h3>
+            <P>THE IPC Essentials Income ETF Portfolio provides you with a monthly income stream and capital presevation</P>
+            <a class="btn-learnmore-green" href="">LEARN MORE</a>
+
+          </div>
+          <div class="col-md-3 col-lg-3">
+            <h2>GROWTH</h2>
+            <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+              <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#f5f5f5"></circle>
+              <!--gray line-->
+              <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+              <!--white line-->
+              <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#f5f5f5" stroke-width="3"
+                stroke-dasharray="2 98" stroke-dashoffset="25"></circle>
+              <!--green line-->
+              <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#046431" stroke-width="3"
+                stroke-dasharray="75 25" stroke-dashoffset="23"></circle>
+              <!--white line-->
+              <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#f5f5f5" stroke-width="3"
+                stroke-dasharray="2 98" stroke-dashoffset="48"></circle>
+              <!--white line-->
+              <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"
+                stroke-dasharray="21 79" stroke-dashoffset="46"></circle>
+            </svg>
+            <p class="green-box">EQUITIES</p>
+            <P class="gray-box">FIXED INCOME</P>
+            <h3>LOW TOLERANCE FOR RISK!</h3>
+            <P>THE IPC Essentials Income ETF Portfolio provides you with a monthly income stream and capital presevation</P>
+            <a class="btn-learnmore-green" href="">LEARN MORE</a>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- End Page Content -->
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="container">
+    <p class="row">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"> w3.css</a>
+    </p>
+  </footer>
+
+
+</body>
+
+</html>
