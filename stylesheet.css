@@ -37,6 +37,11 @@
   .dropdown:hover .dropdown-menu {
 	display: block;
 	}
+.btn-get-started{
+	padding: 8px 15px 8px 15px; 
+	background-color: #006431;
+	color: #fffff;
+}
 
   /*LEARN MORE BUTTON*/
   .btn-learnmore-green{
