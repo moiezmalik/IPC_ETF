@@ -38,9 +38,12 @@
 	display: block;
 	}
 .btn-get-started{
-	padding: 8px 15px 8px 15px; 
+	padding: 5px 15px 5px 15px !important; 
 	background-color: #006431;
-	color: #fffff;
+	color: white !important;
+	border-radius: 5px;
+	margin-top: 8px !important;
+
 }
 
   /*LEARN MORE BUTTON*/
